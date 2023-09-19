@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>NVIDIA</title>
+	<link rel="stylesheet" href="css/popup.css" class="rel">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/app.js" defer></script>
+</head>
+<body>
+	
+		<!-- Оставлю здесь коментарий, 2 фотографии интерактивные, т.е на них наложена кнопка и при нажатии отрывается окно -->
+
+	<div class="container">
+		
+		<section class="gallery">
+
+
+			<div class="frame">
+				<h1>NVIDIA GeForce </h1>
+			</div>
+			
+
+			<!-- Спец.блок -->
+			<div class="frame">
+				<img src="img/black.png" alt="">
+			</div> 
+
+			<div class="frame">
+				<div class="frame__content text-left">
+					<h2>GT GTX QUADRO RTX </h2>
+				</div>
+			</div>
+			<div class="frame">
+				<div class="frame__content">
+					<video class="frame-media frame-media_right" src="video/video2.mp4" autoplay loop muted></video>
+				</div>
+			</div>
+
+
+			<!-- Спец.блок -->
+			<div class="frame">
+				<img src="img/black.png" alt="">
+			</div> 
+
+
+
+			<div class="frame">
+				<div class="frame__content text-right">
+					<h3>RTX vs GTX</h3>
+					<p>Основное различие между линейками GTX и RTX заключается в возможностях трассировки лучей карт в реальном времени</p>
+				</div>
+			</div>
+			<div class="frame">
+				<div class="frame__content">
+					<video class="frame-media frame-media_left" src="video/video1.mp4"autoplay loop muted></video>
+				</div>
+			</div>
+
+
+			<!-- Спец.блок -->
+			<div class="frame frame_bg">
+				<img src="img/black.png" alt="" >
+			</div>
+			
+			<!-- Кнопка  -->
+			<div class="frame">
+				<button class="btn_l" onclick="openPopup2()">text</button>
+			</div>
+
+			<div class="frame">
+				<div class="frame__content text-right">
+					<h4>Лучшая GTX</h4>
+					<p>MSI GTX 1080TI в 2023 году – все еще актуальная и хорошая видеокарта!</p>
+				</div>
+			</div>
+			<div class="frame frame-media_left ">
+			<div class="frame__content">
+				<img class="horizontal.frame-media" src="img/msi1080ti.png" alt="">
+			</div>
+			</div>
+
+
+			<!-- Спец.блок -->
+			<div class="frame frame_bg">
+				<img src="img/black.png">
+			</div>
+
+			<!-- Кнопка  -->
+			<div class="frame">
+				<button class="btn_r" onclick="openPopup1()">text</button>
+			</div>
+
+			<div class="frame text-left">
+				<div class="frame__content">
+					<h5>Лучшая RTX</h5>
+					<p>NVIDIA GeForce RTX 4090TI Эти видеокарты созданы на базе архитектуры NVIDIA Ada Lovelace с 24 ГБ памяти G6X  </p>
+				</div>
+			</div>
+			<div class="frame frame-media_right">
+				<div class="frame__content">
+					<img src="img/4090.png" alt="" class="horizontal frame-media">
+				</div>
+			</div>
+
+
+			<!-- Спец.блок -->
+			<div class="frame frame_bg">
+				<img src="img/black.png">
+			</div>
+
+		
+			<div class="frame">
+				<div class="frame__content">
+					<footer>
+						<p class="p_position">© Desing by Human</p>
+						<p class="p_position">Учебный проект</p>
+					</footer>
+				</div>
+			</div>
+
+		</section>
+
+		<!-- Popup -->
+		<section>
+
+			<div class="popup" id="popup1">
+				<div class="popup__main">
+					<h1>Характеристики</h1>
+					<p>Тип памяти	GDDR6X</p>
+					<p>Максимальный объём памяти	24 Гб</p>
+					<p>Ширина шины памяти	384 бит</p>
+					<p>Частота памяти 21000 МГц</p>
+					<p>Минимально необходимая мощность БП 1000 Вт</p>
+					<h2>Цена 90 509 ₴</h2>
+					<button class="popup__button" onclick ="closePopup1()">Заказать</button>
+				</div>
+			</div>
+			<div class="popup" id="popup2">
+				<div class="popup__main">
+					<h1>Характеристики</h1>
+					<p>Тип памяти GDDR5X</p>
+					<p>Максимальный объём памяти 12Гб</p>
+					<p>Ширина шины памяти 352 бит</p>
+					<p>Частота памяти 11016 МГц</p>
+					<p>Минимально необходимая мощность БП 600 Вт</p>
+					<h2>Цена 7 855 ₴</h2>
+					<button class="popup__button" onclick ="closePopup2()">Заказать</button>
+				</div>
+			</div>
+
+
+		</section>
+		
+		</div>
+	</div>
+</body>
+</html>
