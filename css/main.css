@@ -12,6 +12,9 @@
 	--transition: .75s cubic-bezier(.01,1.05,.98,.76);
 }
 
+::-webkit-scrollbar {
+  width: 0;
+}
 
 
 /* Шрифты */
